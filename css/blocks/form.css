@@ -1,0 +1,117 @@
+.section__title--form {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.6;
+  padding-top: 20px;
+  margin-bottom: 35px;
+  letter-spacing: 3px;
+}
+
+.container_form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form_row {
+  display: flex;
+  margin: 0 auto;
+
+  column-gap: 12px;
+  margin-bottom: 12px;
+}
+input {
+  width: 290px;
+  height: 49px;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid var(--color_text_main);
+}
+
+input::placeholder {
+  font-family: Hind Siliguri;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color_text_gray);
+}
+textarea::placeholder {
+  font-family: Hind Siliguri;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color_text_gray);
+}
+input,
+textarea {
+  font-family: Hind Siliguri;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--color_text_main);
+}
+.container_textarea {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+textarea {
+  width: 592px;
+  height: 135px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--color_text_main);
+}
+
+.span_form {
+  display: block;
+  font-family: "Hind Siliguri";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color_text_main);
+  margin-bottom: 12px;
+}
+.checkbox {
+  display: flex;
+  margin: 0 auto;
+}
+#agree {
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--color_text_main);
+  border-radius: 3px;
+  margin-right: 13px;
+  margin-left: 0;
+}
+input + label {
+  margin-bottom: 22px;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color_text_main);
+}
+label a {
+  text-decoration: underline;
+  color: var(--color_text_main);
+}
+.form_button {
+  display: flex;
+  justify-content: center;
+}
+.btn_base--form {
+  width: 102px;
+  height: 48px;
+  min-width: auto;
+  border-radius: 8px;
+  font-family: "Hind Siliguri";
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-accent);
+  transition: all 0.4s ease-in-out;
+}
+.btn_base--form:hover {
+  background-color: var(--color-accent);
+  color: var(--color_white);
+}
